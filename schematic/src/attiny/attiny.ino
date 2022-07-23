@@ -14,11 +14,11 @@
 
   use programmer "Arduino as ISP"
   load with programmeк (Ctrl+Shift+U)
-  gooв luck! ^)
+  good luck! ^)
 */
 
 // delay
-#define DEL 100
+#define DEL 20
 
 void setup() {
   pinMode(PB4, OUTPUT); // PB4 - port with led
@@ -26,7 +26,7 @@ void setup() {
 
 void loop() {
   digitalWrite(PB4, 1);
-  delay(DEL);
+  delay(20);
   digitalWrite(PB4, 0);
-  delay(DEL);
+  delay(300);
 }
