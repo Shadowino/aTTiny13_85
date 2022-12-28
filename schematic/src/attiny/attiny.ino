@@ -13,7 +13,7 @@
   VCC        -> 5V
 
   use programmer "Arduino as ISP"
-  load with programmeк (Ctrl+Shift+U)
+  load with programmer (Ctrl+Shift+U)
   good luck! ^)
 */
 
@@ -26,7 +26,7 @@ void setup() {
 
 void loop() {
   digitalWrite(PB4, 1);
-  delay(20);
+  delay(100);
   digitalWrite(PB4, 0);
-  delay(300);
+  delay(100);
 }
