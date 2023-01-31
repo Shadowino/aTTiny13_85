@@ -55,7 +55,8 @@ aTTiny13_85 легко подключаемая и программируема�
 список ссылок для менеджера плат
 
 ```
-http:\\google.com
+https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json
+http://drazzy.com/package_drazzy.com_index.json
 ```
 
 [^1]: все директории указаны относитьельно schematic и могут измениться в будущем
